@@ -52,7 +52,7 @@ export async function renderFolderView(items, path, request) {
   const intro = `<div class="intro markdown-body" style="text-align: left; margin-top: 2rem;">
                     <h2>Hi, this is derbalkon 👋</h2>
                     <p>This is my OneDrive public directory listing. Feel free to download any files that you find useful.</p>
-                    <p><a href="https://wrrrr.me">Portfolio</a> · <a href="https://blog.wrrrr.com">Blog</a> · <a href="https://github.com/derbalkon">GitHub</a></p>
+                    <p><a href="https://wrrrr.me">Portfolio</a> · <a href="https://blog.wrrrr.me">Blog</a> · <a href="https://github.com/derbalkon">GitHub</a></p>
                   </div>`
 
   // Check if current directory contains README.md, if true, then render spinner
